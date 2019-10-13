@@ -312,7 +312,8 @@ html {
   font-weight: bold;
   text-decoration: none; }
   .link:hover {
-    text-decoration: underline; }
+    text-decoration: underline;
+    cursor: pointer; }
   .link--white {
     color: #ffffff; }
 
@@ -356,6 +357,7 @@ html {
     text-transform: capitalize;
     text-align: center;
     line-height: 1.5;
+    color: var(--text-prominent);
     text-transform: none;
     margin-bottom: 3em; }
   .dc-modal__container_mt5-password-modal form {
@@ -411,7 +413,8 @@ html {
     text-transform: capitalize;
     text-align: center;
     line-height: 1.25;
-    text-transform: none; }
+    text-transform: none;
+    color: var(--text-general); }
   .dc-modal__container_top-up-virtual--h4 {
     font-size: 1.2em;
     color: rgba(0, 0, 0, 0.8);
@@ -419,7 +422,8 @@ html {
     text-transform: capitalize;
     text-align: center;
     line-height: 1.25;
-    text-transform: none; }
+    text-transform: none;
+    color: var(--text-prominent); }
   .dc-modal__container_top-up-virtual--balance {
     font-size: 1.4em;
     color: rgba(0, 0, 0, 0.8);
@@ -432,9 +436,10 @@ html {
     font-size: 1.2em;
     color: rgba(0, 0, 0, 0.8);
     font-weight: 400;
-    text-transform: capitalize;
+    text-transform: none;
     text-align: center;
-    line-height: 1.25; }
+    line-height: 1.25;
+    color: var(--text-general); }
   .dc-modal__container_top-up-virtual--button {
     height: 4rem;
     width: 27rem;
@@ -453,7 +458,8 @@ html {
       line-height: 1.5;
       background-color: #ff444f;
       background-color: var(--brand-red-coral);
-      color: var(--text-prominent); }
+      color: var(--text-colored-background);
+      text-transform: none; }
       .dc-modal__container_top-up-virtual--button .btn--disabled {
         background-color: #ff444f;
         background-color: var(--brand-red-coral);
@@ -475,6 +481,7 @@ html {
   text-transform: capitalize;
   text-align: center;
   line-height: 1.5;
+  color: var(--text-prominent);
   text-transform: none; }
 
 .mt5-success-topup__heading {
@@ -484,8 +491,10 @@ html {
   text-transform: capitalize;
   text-align: center;
   line-height: 1.25;
+  color: var(--text-prominent);
   text-transform: none;
-  margin-top: 2em; }
+  margin-top: 2em;
+  padding: 0 1.6em; }
 
 .mt5-success-topup__description p {
   font-size: 1.2em;
@@ -494,6 +503,7 @@ html {
   text-transform: capitalize;
   text-align: center;
   line-height: 1.25;
+  color: var(--text-general);
   text-transform: none; }
 
 .dc-tooltip {
@@ -1238,7 +1248,8 @@ html {
   font-weight: bold;
   text-decoration: none; }
   .link:hover {
-    text-decoration: underline; }
+    text-decoration: underline;
+    cursor: pointer; }
   .link--white {
     color: #ffffff; }
 
@@ -1311,7 +1322,7 @@ html {
     display: flex;
     flex-direction: column; }
     .table__body .table__row-link:hover {
-      background-color: var(--general-hover);
+      background-color: var(--state-hover);
       cursor: pointer; }
     .table__body .table__row:last-child {
       border-bottom: none; }
@@ -1378,7 +1389,7 @@ html {
     align-items: center;
     padding-left: 1.6rem;
     background-color: var(--general-section-1);
-    margin-bottom: 3.2em; }
+    margin: 2.4em 0; }
     .mt5-dashboard__missing-real--heading {
       font-size: 1.6em;
       color: rgba(0, 0, 0, 0.8);
@@ -1405,21 +1416,32 @@ html {
         flex-flow: column nowrap;
         align-items: center; }
       .mt5-dashboard__download-center-options--desktop {
-        margin-left: 7em; }
+        margin-left: 7em;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: flex-start; }
         .mt5-dashboard__download-center-options--desktop-devices {
-          width: 24em;
+          width: 200px;
           display: flex;
           justify-content: space-between;
           align-items: flex-end;
-          margin-bottom: 1.6em; }
+          margin-right: 1.6em;
+          flex-wrap: wrap; }
+          .mt5-dashboard__download-center-options--desktop-devices svg:first-child {
+            margin-right: 0.4em; }
+          .mt5-dashboard__download-center-options--desktop-devices svg:not(:last-child) {
+            margin-bottom: 1.6em; }
         .mt5-dashboard__download-center-options--desktop-links {
-          width: 43em;
+          height: 142px;
           display: flex;
+          flex-flow: column nowrap;
           justify-content: space-between; }
       .mt5-dashboard__download-center-options--mobile {
         margin-right: 7em; }
         .mt5-dashboard__download-center-options--mobile-devices {
           margin-bottom: 1.6em; }
+          .mt5-dashboard__download-center-options--mobile-devices svg:first-child {
+            margin-right: 0.8em; }
         .mt5-dashboard__download-center-options--mobile-links {
           width: 27.1em;
           display: flex;
@@ -1443,7 +1465,6 @@ html {
       text-align: left;
       line-height: unset;
       color: var(--text-less-prominent);
-      margin-top: 1.6em;
       margin-left: 7.05em; }
 
 .mt5-attribute-describer {

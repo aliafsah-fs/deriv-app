@@ -373,7 +373,8 @@ html {
   font-weight: bold;
   text-decoration: none; }
   .link:hover {
-    text-decoration: underline; }
+    text-decoration: underline;
+    cursor: pointer; }
   .link--white {
     color: #ffffff; }
 
