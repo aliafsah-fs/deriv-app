@@ -11,11 +11,8 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("/br_input_label_back_color/workbox-v4.3.1/workbox-sw.js");
-workbox.setConfig({modulePathPrefix: "/br_input_label_back_color/workbox-v4.3.1"});
-
 importScripts(
-  "/br_input_label_back_color/precache-manifest.40d4320c0ec7e2e15cb4004b24474c20.js"
+  "/br_input_label_back_color/precache-manifest.5fcdf7c97b853d7e1807e473a2e5d7d0.js"
 );
 
 workbox.core.skipWaiting();

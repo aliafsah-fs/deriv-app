@@ -2211,7 +2211,8 @@ html {
 
 .dc-input__field:focus ~ label, .dc-input__field:disabled ~ label, .dc-input__field:not(:focus):not([value='']) ~ label {
   transform: translate(0, -1.8rem) scale(0.75);
-  padding: 0 4px; }
+  padding: 0 4px;
+  background-color: inherit; }
 
 .dc-input__field:disabled {
   color: var(--text-disabled); }
@@ -2298,7 +2299,7 @@ html {
   color: var(--text-less-prominent);
   font-size: 1.4rem;
   font-size: var(--text-size-xs);
-  background-color: var(--general-main-2);
+  background-color: transparent;
   position: absolute;
   pointer-events: none;
   left: 1rem;
@@ -4509,7 +4510,8 @@ html {
 
 .dc-input__field:focus ~ label, .dc-input__field:disabled ~ label, .dc-input__field:not(:focus):not([value='']) ~ label {
   transform: translate(0, -1.8rem) scale(0.75);
-  padding: 0 4px; }
+  padding: 0 4px;
+  background-color: inherit; }
 
 .dc-input__field:disabled {
   color: var(--text-disabled); }
@@ -4596,7 +4598,7 @@ html {
   color: var(--text-less-prominent);
   font-size: 1.4rem;
   font-size: var(--text-size-xs);
-  background-color: var(--general-main-2);
+  background-color: transparent;
   position: absolute;
   pointer-events: none;
   left: 1rem;
@@ -7199,7 +7201,8 @@ html {
 
 .dc-input__field:focus ~ label, .dc-input__field:disabled ~ label, .dc-input__field:not(:focus):not([value='']) ~ label {
   transform: translate(0, -1.8rem) scale(0.75);
-  padding: 0 4px; }
+  padding: 0 4px;
+  background-color: inherit; }
 
 .dc-input__field:disabled {
   color: var(--text-disabled); }
@@ -7286,7 +7289,7 @@ html {
   color: var(--text-less-prominent);
   font-size: 1.4rem;
   font-size: var(--text-size-xs);
-  background-color: var(--general-main-2);
+  background-color: transparent;
   position: absolute;
   pointer-events: none;
   left: 1rem;
@@ -19337,7 +19340,7 @@ table {
     height: 4rem;
     margin-top: 3.2rem; }
   .cashier__account-switch-icon {
-    background-image: url(/br_input_label_back_color/public/images/app/cashier/account_switcher.jpg);
+    background-image: url(/br_input_label_back_color/public/images/app/cashier/account_switcher.png);
     width: 400px;
     height: 360px;
     background-repeat: no-repeat;
