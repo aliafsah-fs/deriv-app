@@ -11,11 +11,8 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("/br_fix_bug_signup_redi/workbox-v4.3.1/workbox-sw.js");
-workbox.setConfig({modulePathPrefix: "/br_fix_bug_signup_redi/workbox-v4.3.1"});
-
 importScripts(
-  "/br_fix_bug_signup_redi/precache-manifest.5f576379c1e6dfa182c2aa3cf6e08f65.js"
+  "/br_fix_bug_signup_redi/precache-manifest.21e8290fd083fd52732db6b2bd8e9dd4.js"
 );
 
 workbox.core.skipWaiting();
