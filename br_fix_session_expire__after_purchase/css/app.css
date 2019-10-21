@@ -18112,20 +18112,23 @@ table {
     top: 7px;
     z-index: 2;
     transform: translate3d(0, 0, 0);
-    opacity: 1;
-    transition: transform 0.25s ease, opacity 0.25s linear; }
+    opacity: 1; }
     .datepicker__picker--left-enter, .datepicker__picker--left-exit {
       transform: translate3d(-275px, 0, 0);
       opacity: 0; }
     .datepicker__picker--left-enter-done {
       transform: translate3d(-295px, 0, 0);
       opacity: 1; }
+    .datepicker__picker--left-enter-done, .datepicker__picker--left-exit {
+      transition: transform 0.25s ease, opacity 0.25s linear; }
     .datepicker__picker--bottom-enter, .datepicker__picker--bottom-exit {
       transform: translate3d(0, 0, 0);
       opacity: 0; }
     .datepicker__picker--bottom-enter-done {
       transform: translate3d(0, 33px, 0);
       opacity: 1; }
+    .datepicker__picker--bottom-enter-done, .datepicker__picker--bottom-exit {
+      transition: transform 0.25s ease, opacity 0.25s linear; }
 
 /** @define error-box */
 .error-box {
