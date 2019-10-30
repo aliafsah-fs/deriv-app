@@ -1164,6 +1164,9 @@ html {
 .dc-dropdown-list__item:hover {
   background-color: var(--state-hover); }
 
+.dc-dropdown-list__item--active {
+  background-color: var(--state-active); }
+
 .dc-autocomplete {
   width: 100%;
   position: relative; }
