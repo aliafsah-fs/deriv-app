@@ -2293,10 +2293,14 @@ html {
       padding-top: 0.3em;
       padding-bottom: 0.3em; }
   .acc-switcher__logout {
-    position: relative;
-    cursor: pointer;
-    float: right;
-    margin: 1.6em 1.3em; }
+    -webkit-box-align: center;
+            align-items: center;
+    align-self: flex-end;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: end;
+            justify-content: flex-end;
+    padding: 1.6em 1.3em; }
     .acc-switcher__logout-text {
       font-size: 1.4rem;
       color: var(--text-general);
@@ -2304,9 +2308,11 @@ html {
       text-transform: none;
       text-align: left;
       line-height: 1.5;
-      color: var(--text-prominent); }
+      color: var(--text-prominent);
+      cursor: pointer; }
     .acc-switcher__logout-icon {
-      margin-left: 8px; }
+      margin-left: 8px;
+      cursor: pointer; }
   .acc-switcher__balance {
     color: var(--status-success);
     margin-left: auto; }
