@@ -2296,7 +2296,6 @@ html {
     -webkit-box-align: center;
             align-items: center;
     align-self: flex-end;
-    cursor: pointer;
     display: -webkit-box;
     display: flex;
     -webkit-box-pack: end;
@@ -2309,9 +2308,11 @@ html {
       text-transform: none;
       text-align: left;
       line-height: 1.5;
-      color: var(--text-prominent); }
+      color: var(--text-prominent);
+      cursor: pointer; }
     .acc-switcher__logout-icon {
-      margin-left: 8px; }
+      margin-left: 8px;
+      cursor: pointer; }
   .acc-switcher__balance {
     color: var(--status-success);
     margin-left: auto; }
