@@ -259,7 +259,7 @@
   text-align: center;
   line-height: 1.25;
   cursor: help;
-  position: fixed;
+  position: relative;
   padding: 0.7em;
   max-width: 280px;
   border-radius: 4px;
@@ -269,7 +269,8 @@
   -webkit-box-direction: normal;
           flex-direction: row;
   background: var(--general-active);
-  color: var(--text-prominent); }
+  color: var(--text-prominent);
+  z-index: 999; }
 
 .dc-popover__bubble__icon {
   -webkit-box-flex: 1;
@@ -282,56 +283,8 @@
           flex-grow: 2;
   text-align: left; }
 
-.dc-popover__bubble__arrow {
-  position: absolute;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent; }
-
-.dc-popover__bubble[data-popover-pos=top], .dc-popover__bubble[data-popover-pos=bottom] {
-  margin: 1em 0; }
-
-.dc-popover__bubble[data-popover-pos=left], .dc-popover__bubble[data-popover-pos=right] {
-  margin: 0 1em; }
-
-.dc-popover__bubble[data-popover-pos=left] .dc-popover__bubble__arrow {
-  left: 100%;
-  top: 50%;
-  margin-top: -5px;
-  border-left-color: var(--general-active); }
-
-.dc-popover__bubble[data-popover-pos=right] .dc-popover__bubble__arrow {
-  right: 100%;
-  top: 50%;
-  margin-top: -5px;
-  border-right-color: var(--general-active); }
-
-.dc-popover__bubble[data-popover-pos=top] .dc-popover__bubble__arrow {
-  left: 50%;
-  top: 100%;
-  margin-left: -5px;
-  border-top-color: var(--general-active); }
-
-.dc-popover__bubble[data-popover-pos=bottom] .dc-popover__bubble__arrow {
-  left: 50%;
-  bottom: 100%;
-  margin-left: -5px;
-  border-bottom-color: var(--general-active); }
-
 .dc-popover__bubble--error {
   background-color: var(--status-danger); }
-
-.dc-popover__bubble--error[data-popover-pos=left] .popover__bubble__arrow {
-  border-left-color: var(--status-danger); }
-
-.dc-popover__bubble--error[data-popover-pos=right] .popover__bubble__arrow {
-  border-right-color: var(--status-danger); }
-
-.dc-popover__bubble--error[data-popover-pos=top] .popover__bubble__arrow {
-  border-top-color: var(--status-danger); }
-
-.dc-popover__bubble--error[data-popover-pos=bottom] .popover__bubble__arrow {
-  border-bottom-color: var(--status-danger); }
 
 /*------------------------------------*
  *  # Constants
@@ -3015,7 +2968,7 @@ html {
   text-align: center;
   line-height: 1.25;
   cursor: help;
-  position: fixed;
+  position: relative;
   padding: 0.7em;
   max-width: 280px;
   border-radius: 4px;
@@ -3025,7 +2978,8 @@ html {
   -webkit-box-direction: normal;
           flex-direction: row;
   background: var(--general-active);
-  color: var(--text-prominent); }
+  color: var(--text-prominent);
+  z-index: 999; }
 
 .dc-popover__bubble__icon {
   -webkit-box-flex: 1;
@@ -3038,56 +2992,8 @@ html {
           flex-grow: 2;
   text-align: left; }
 
-.dc-popover__bubble__arrow {
-  position: absolute;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent; }
-
-.dc-popover__bubble[data-popover-pos=top], .dc-popover__bubble[data-popover-pos=bottom] {
-  margin: 1em 0; }
-
-.dc-popover__bubble[data-popover-pos=left], .dc-popover__bubble[data-popover-pos=right] {
-  margin: 0 1em; }
-
-.dc-popover__bubble[data-popover-pos=left] .dc-popover__bubble__arrow {
-  left: 100%;
-  top: 50%;
-  margin-top: -5px;
-  border-left-color: var(--general-active); }
-
-.dc-popover__bubble[data-popover-pos=right] .dc-popover__bubble__arrow {
-  right: 100%;
-  top: 50%;
-  margin-top: -5px;
-  border-right-color: var(--general-active); }
-
-.dc-popover__bubble[data-popover-pos=top] .dc-popover__bubble__arrow {
-  left: 50%;
-  top: 100%;
-  margin-left: -5px;
-  border-top-color: var(--general-active); }
-
-.dc-popover__bubble[data-popover-pos=bottom] .dc-popover__bubble__arrow {
-  left: 50%;
-  bottom: 100%;
-  margin-left: -5px;
-  border-bottom-color: var(--general-active); }
-
 .dc-popover__bubble--error {
   background-color: var(--status-danger); }
-
-.dc-popover__bubble--error[data-popover-pos=left] .popover__bubble__arrow {
-  border-left-color: var(--status-danger); }
-
-.dc-popover__bubble--error[data-popover-pos=right] .popover__bubble__arrow {
-  border-right-color: var(--status-danger); }
-
-.dc-popover__bubble--error[data-popover-pos=top] .popover__bubble__arrow {
-  border-top-color: var(--status-danger); }
-
-.dc-popover__bubble--error[data-popover-pos=bottom] .popover__bubble__arrow {
-  border-bottom-color: var(--status-danger); }
 
 .dc-dropdown__select-arrow .color1-fill {
   fill: var(--text-general); }
@@ -8498,7 +8404,6 @@ table {
 
 .network-status__tooltip {
   left: unset;
-  margin-left: 2em;
   -webkit-text-decoration-line: none;
           text-decoration-line: none; }
 
