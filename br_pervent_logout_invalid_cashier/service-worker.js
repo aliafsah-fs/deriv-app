@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/br_pervent_logout_invalid_cashier/precache-manifest.466c2009380723a83c51fc518503add9.js"
+  "/br_pervent_logout_invalid_cashier/precache-manifest.bf8a05d572f3548638e45342b360a84c.js"
 );
 
 workbox.core.skipWaiting();
