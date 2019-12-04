@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/br_volatility_as_default_market_closed/precache-manifest.74c4caac5e0b7bf556fb3aaed8915f22.js"
+  "/br_volatility_as_default_market_closed/precache-manifest.acad372ed4ea715f4313db8de9319494.js"
 );
 
 workbox.core.skipWaiting();
