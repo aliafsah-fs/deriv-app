@@ -36,7 +36,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/br_performance_metrics/css/core.default~bot~trader.1a2d140c72ef728ba373.css"
   },
   {
-    "revision": "8df21778863c3503afc6",
+    "revision": "547131cdb6d68e714c06",
     "url": "/br_performance_metrics/css/core.main.css"
   },
   {
@@ -1128,8 +1128,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/br_performance_metrics/js/core.icon-won.ca03c6c3f4e56eedeb2d.js"
   },
   {
-    "revision": "8df21778863c3503afc6",
-    "url": "/br_performance_metrics/js/core.main.a70bcd09d13e1db46376.js"
+    "revision": "547131cdb6d68e714c06",
+    "url": "/br_performance_metrics/js/core.main.cb14cfdc040748b24da5.js"
   },
   {
     "revision": "ca98d69ea5ba86530b44",
